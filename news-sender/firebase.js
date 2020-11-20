@@ -19,9 +19,16 @@ var docRef = db.collection("users").doc("topnews");
 //ドキュメント削除
 // let deleteDoc = db.collection("users").doc("alovelace").delete();
 
+//valueChanges().subscribe((datas) => { console.log("datas", datas) },(err)=>{ console.log("probleme : ", err) })
+//変更があったときに、自動で送信される関数
+
 //フィールドに値の追加
 var setAda = docRef.set({
   asahi,
   mainichi,
   yomiuri,
 });
+
+
+
+
