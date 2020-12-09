@@ -6,7 +6,6 @@ let yomiuri = require("../newsJSON/yomiuri.json");
 
 //firebase読み込みwithJSONで
 const admin = require("firebase-admin");
-var serviceAccount = require("./topnews-c7f61-firebase-adminsdk-xp7nq-baf7a7591b.json");
 
 //データベースの初期化
 admin.initializeApp({
